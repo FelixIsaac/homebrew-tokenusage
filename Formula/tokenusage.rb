@@ -1,25 +1,25 @@
 class Tokenusage < Formula
   desc "Fast Rust CLI/TUI/GUI token usage tracker for Codex, Claude Code, Gemini CLI, OpenCode, and Antigravity usage."
   homepage "https://tokenusage.org"
-  version "1.11.0"
+  version "1.11.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/hanbu97/tokenusage/releases/download/v1.11.0/tokenusage-aarch64-apple-darwin.tar.xz"
-      sha256 "e767f873a5fb8c69d3d956955c2c08fb8558a4c921f37a0a9ab11b39f5ff55b9"
+      url "https://github.com/FelixIsaac/tokenusage/releases/download/v1.11.2/tokenusage-aarch64-apple-darwin.tar.xz"
+      sha256 "f20372a4a843fe41cade28fc7e981f1ec07d96b26b989311b42f9a9b6a5b0d9b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/hanbu97/tokenusage/releases/download/v1.11.0/tokenusage-x86_64-apple-darwin.tar.xz"
-      sha256 "a7e370330cdbad69010473c36edb0b303f05c4021e295bb76e1616edb57bbd21"
+      url "https://github.com/FelixIsaac/tokenusage/releases/download/v1.11.2/tokenusage-x86_64-apple-darwin.tar.xz"
+      sha256 "356629b36ac0a705d86cd90fe4757def353f679e9cea63bc11d9b955fd6ed73f"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/hanbu97/tokenusage/releases/download/v1.11.0/tokenusage-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "a3dd4a4ce7e29abb8d8536c49c08cbb77d6d60719ed891b0214d2f43460d554b"
+      url "https://github.com/FelixIsaac/tokenusage/releases/download/v1.11.2/tokenusage-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "4168cc0b0582dee5e1df2ad5b7a7d76fe65dc0a7f0eb252e29deea12e95d3046"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/hanbu97/tokenusage/releases/download/v1.11.0/tokenusage-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "965ea484b522edb2d42071f351dfa77ab566eaa11fc1a251f60961d0b7310cd4"
+      url "https://github.com/FelixIsaac/tokenusage/releases/download/v1.11.2/tokenusage-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "a7af1ffaa6aadae06fb766164be67083fe5bcaa55acca4c79cbcb57492363df5"
     end
   end
   license "MIT"
