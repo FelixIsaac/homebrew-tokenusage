@@ -1,25 +1,25 @@
 class Tokenusage < Formula
   desc "Fast Rust CLI/TUI/GUI token usage tracker for Codex, Claude Code, Gemini CLI, OpenCode, and Antigravity usage."
   homepage "https://tokenusage.org"
-  version "1.11.6"
+  version "1.12.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/FelixIsaac/tokenusage/releases/download/v1.11.6/tokenusage-aarch64-apple-darwin.tar.xz"
-      sha256 "8bfac7effb5b7452ddddd562632cb9177bd1f1f409cbcddfcceb8ef68eae5f70"
+      url "https://github.com/FelixIsaac/tokenusage/releases/download/v1.12.1/tokenusage-aarch64-apple-darwin.tar.xz"
+      sha256 "85f0924c30e80792f297e3b4505f9e54b0118b212336084e46a215944704c486"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/FelixIsaac/tokenusage/releases/download/v1.11.6/tokenusage-x86_64-apple-darwin.tar.xz"
-      sha256 "fd71f072dc44f211bd245f39f9654dd6b0ebfc2cf899d4eadcdfd09ea669ee4a"
+      url "https://github.com/FelixIsaac/tokenusage/releases/download/v1.12.1/tokenusage-x86_64-apple-darwin.tar.xz"
+      sha256 "75aaf0dca00eb6fc9d8c81b641cdfb6a03f08348ab7f117938dd52c14e7b83fe"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/FelixIsaac/tokenusage/releases/download/v1.11.6/tokenusage-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "b20cfd1902b2787b5dee2afd228f4147d762a5f94e4b003fb7f83730715fc00e"
+      url "https://github.com/FelixIsaac/tokenusage/releases/download/v1.12.1/tokenusage-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "8ce4ff5db861d600d076e0db7ae5d0a7d180a376f9f5eb0513aca3be4e17d76a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/FelixIsaac/tokenusage/releases/download/v1.11.6/tokenusage-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "c483a50e50689cede9be13c64f9fa7fce7186a1e1d0510fc4e41a5ca6d67a829"
+      url "https://github.com/FelixIsaac/tokenusage/releases/download/v1.12.1/tokenusage-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "b46f3ce3b05fa76525158069a9c84f1603a2f75e41a7ddb97566254baa3906b1"
     end
   end
   license "MIT"
